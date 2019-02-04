@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container">
+            <h1 class="header">Favorite Giphy</h1>
+        </div>
+
+        <button data-animal="Cows">Cows</button>
+        <button data-animal="Horses">Horses</button>
+        <button data-animal="Dogs">Dogs</button>
+        <button data-animal="Cats"> Cats</button>
+        <button data-animal="Snakes">Snakes</button>
+        
+        <div id="buttons-view"></div>
+
+        <form id="gif-form">
+            <label for="gif-input">Add a Giphy!</label>
+                <input type="text" id="gif-input">
+            <br>
+
+      <!-- Button triggers new gifs to be added -->
+                <input id="add-gif" type="submit" value="Submit">
+        </form>
+        <div id="gifs-appear-here">
+        </div>
+   
+        <script src="assets/javascript/app.js"></script>  
+</body>
+</html>

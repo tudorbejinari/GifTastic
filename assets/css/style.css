@@ -1,0 +1,33 @@
+body {  
+    background: url("../images/image2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    font-size:48px;
+}
+button {
+    font-size: 18px;
+    background-color: darkgray;
+    color:white;
+    height: 40px;
+    width: 80px;
+    border-radius: 12px;
+}
+div.images{ 
+    margin-right: 5px;
+    float: left;
+    width: 30%;
+}
+  img{
+    height: 300;
+    width: 200;
+    border-radius: 5px;
+    border: 2px solid black;  
+}
+  #buttons-view {
+    margin-bottom: 20px;
+}
+  #add-gif {
+    margin-top: 20px;
+}
